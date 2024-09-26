@@ -1,0 +1,91 @@
+body {
+  background-color: wheat;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1,
+h3 {
+  text-align: center;
+}
+
+img {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+p {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.link,
+.link-group {
+  text-align: center;
+}
+
+.link-group {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact {
+  background-color: cornsilk;
+  padding: 10px;
+  border: 1px solid cornsilk;
+  border-radius: 10px;
+}
+
+.contact a {
+  color: steelblue;
+  text-decoration: none;
+}
+
+.contact:hover {
+  background-color: steelblue;
+  border: 0;
+}
+
+.contact:hover a {
+  color: cornsilk;
+}
+
+.about {
+  padding: 10px;
+  border: 1px solid steelblue;
+  background-color: steelblue;
+  border-radius: 10px;
+}
+
+.about a {
+  color: cornsilk;
+  text-decoration: none;
+}
+
+.about:hover {
+  background-color: steelblue;
+  border: 0;
+}
+
+.about:hover a {
+  color: cornsilk;
+}
+
+.link {
+  background-color: cornsilk;
+  border-radius: 10px;
+  width: 20%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.link a {
+  text-decoration: none;
+  color: steelblue;
+}
+
+.image {
+  margin: 0 auto;
+  align-items: center;
+  display: table;
+  margin-bottom: 20px;
+}
